@@ -72,11 +72,11 @@ namespace Deliverable__2__Conditional_Statemen_Paula
                 {
                     Console.WriteLine("Letter grade of C");
                 }
-                else if ((grade >= 71) && (grade < 70))
+                else if ((grade >= 70) && (grade <= 71))
                 {
                     Console.WriteLine("Letter grade C-");
                 }
-                else if ((grade >= 69) && (grade < 0))
+                else if ((grade >= 69) && (grade< 0))
                 {
                     Console.WriteLine("Letter grade D");
 
